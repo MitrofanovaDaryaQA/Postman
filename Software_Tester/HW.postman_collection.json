@@ -1,0 +1,539 @@
+{
+	"info": {
+		"_postman_id": "ba306c13-c40a-49d7-8bcd-71a54a2cbeb8",
+		"name": "HW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19467850"
+	},
+	"item": [
+		{
+			"name": "EP_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=Artem&age=23",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Artem"
+						},
+						{
+							"key": "age",
+							"value": "23"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Artem",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_3",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Artem",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_1?name=Artem&age=23&weight=100",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Artem"
+						},
+						{
+							"key": "age",
+							"value": "23"
+						},
+						{
+							"key": "weight",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Artem",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Artem&age=23&salary=7000",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Artem"
+						},
+						{
+							"key": "age",
+							"value": "23"
+						},
+						{
+							"key": "salary",
+							"value": "7000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Artem",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Artem&age=23&salary=7000",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Artem"
+						},
+						{
+							"key": "age",
+							"value": "23"
+						},
+						{
+							"key": "salary",
+							"value": "7000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Artem",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Artem&age=23&salary=7000",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Artem"
+						},
+						{
+							"key": "age",
+							"value": "23"
+						},
+						{
+							"key": "salary",
+							"value": "7000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Artem",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://account.mail.ru/api/v1/user/signup",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "account.mail.ru"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "cookie",
+						"value": "mrcu=A9D9631B2C064799D4D0ED51975A; p=q/EAAErGWzYA; tmr_lvid=2b95196760dcf65c3600d35c65e2ce12; tmr_lvidTS=1662725137067; t=obLD1AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAABAABsBzgcA; searchuid=6698669191662724266; act=ba63e45ff2ad4ae19baa81da06071ac8; _ga=GA1.2.460477491.1664961720; sdcs=NVLY0BWXURG1xhoF; o=mitrofanova.darya.qa@inbox.ru:867:EA==.m|darya.mitrofanowa.00@mail.ru:1026:AAQ=.s; Mpop=1665335001:5c716a59660776471905000017031f051c054f6c5150445e05190401041d5c5044455e5f58565e4650195156474855194850115f56505d40174b44:mitrofanova.darya.qa@inbox.ru:; mtrc=%7B%22utm_source%22%3A%22portal%22%2C%22utm_medium%22%3A%22new_portal_navigation%22%2C%22utm_campaign%22%3A%22mail.ru%22%2C%22mt_click_id%22%3A%22mt-ds8xq6-1665335252-1693545577%22%2C%22mytrackerid%22%3A58519%2C%22tmr_lvid%22%3A%22undefined%22%7D; s=rt=1|fver=0|dpr=1.25|octavius=1|ww=1536|wh=722; b=SUsAAKDGJvkAMwAAAGHs4Qs16FAW2YZT1SDbcGaHZBsA; c=2f9CYwEAoHsTAAAkAQQACQAAQKFoHzWPACDqM6QX; i=AQDY/kJjEQATAAg9FBwBAR0BAR8BAbUHAbkHAc4HAdAHAdIHAdMHAVoIATwJAfEJAfYJAYMKAYQKAUQLAXseAvUgAfYgAfQiAU4CCAoDGgUBegUBRw8BkwIIXh9uAAEAAgEBAgEHAgEKAgENAgEUAgEYAgFeBQFoBQF0BQF2BQGkBQGmBQGoBQF6BgHICwHKCwHMCwHOCwF0DQF3DQGGDQG1DQHwDgH9DgEADwEBDwHMDwHbEgGtYwHcBAgEAQEAAeEECQEC4gQKBBsB0Qc6BQgKAzIMAUoMAZ8MAV0GBQIBAL0HCAQBjRUBKQkIWB3aAgEhBAGABAGEBAGIBAGOBAGTBAEwBwE8BwGsBwG4BwG6BwHlBwHoBwHqBwHsBwGzCAHICwHKCwHMCwHOCwFxDQHMDwFPEAF2EAF6EAHlEAH3EQEFEgGkEQUCAeSrEQUCAemxEQUCAeqzEQUCAfu4EQUCAeq5EQUCAfzCEQUCAQA=; tmr_detect=0%7C1665335260453; tmr_reqNum=968; VID=0ehjiy1rau2D00000h1ML4ID:::85d5799-0-859201c-83584c7:CAASEAyzFaFwcDIloKOJ3d-mn5cacBXYjefS8Lf4ljV5Z-NHVf6zmb1aMNMdKuG-bR5VT9cuid2ccaqPDKsRrmHxDeQ0PWWaQtBFHMZt14JRC59Ap-dWOZPsTzCsaHqldAjrgSyjamMeVnXzGWIxm-lJ77C66dN9n3PtN9pRCAget0WwDBk"
+					},
+					{
+						"key": "origin",
+						"value": "https://account.mail.ru"
+					},
+					{
+						"key": "referer",
+						"value": "https://account.mail.ru/signup?from=main&rf=auth.mail.ru&app_id_mytracker=58519"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-request-id",
+						"value": "82f7d69-b43d-53f1-81ee-b8178d541816"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "extended",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "more_password_strength",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "context",
+							"value": "signup",
+							"type": "text"
+						},
+						{
+							"key": "browser",
+							"value": "{\"screen\":{\"availWidth\":\"1536\",\"availHeight\":\"824\",\"width\":\"1536\",\"height\":\"864\",\"colorDepth\":\"24\",\"pixelDepth\":\"24\",\"availLeft\":\"0\",\"availTop\":\"0\",\"onchange\":\"inaccessible\",\"isExtended\":\"false\"},\"navigator\":{\"vendorSub\":\"\",\"productSub\":\"20030107\",\"vendor\":\"Google Inc.\",\"maxTouchPoints\":\"0\",\"doNotTrack\":\"inaccessible\",\"pdfViewerEnabled\":\"true\",\"hardwareConcurrency\":\"8\",\"cookieEnabled\":\"true\",\"appCodeName\":\"Mozilla\",\"appName\":\"Netscape\",\"appVersion\":\"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"platform\":\"Win32\",\"product\":\"Gecko\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"language\":\"ru-RU\",\"onLine\":\"true\",\"webdriver\":\"false\",\"deviceMemory\":\"8\"},\"flash\":{\"version\":\"inaccessible\"}}",
+							"type": "text"
+						},
+						{
+							"key": "from",
+							"value": "main",
+							"type": "text"
+						},
+						{
+							"key": "sent_me_ads",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "sent_me_ads_common",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "{\"first\":\"Дарья\",\"last\":\"Митрофанова\"}",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "{\"day\":27,\"month\":1,\"year\":2001}",
+							"type": "text"
+						},
+						{
+							"key": "sex",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "login",
+							"value": "darya.mitrofanowa.478621",
+							"type": "text"
+						},
+						{
+							"key": "domain",
+							"value": "mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678Darya",
+							"type": "text"
+						},
+						{
+							"key": "restore",
+							"value": "{\"secret\":\"-\",\"secret_answer\":\"-\",\"additional_email\":\"mitrofanovadara021@gmail.com\"}",
+							"type": "text"
+						},
+						{
+							"key": "htmlencoded",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "utm",
+							"value": "{}",
+							"type": "text"
+						},
+						{
+							"key": "referrer",
+							"value": "https://mail.ru/",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://account.mail.ru/api/v1/user/signup",
+					"protocol": "https",
+					"host": [
+						"account",
+						"mail",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
